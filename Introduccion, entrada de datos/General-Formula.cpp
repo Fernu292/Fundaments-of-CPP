@@ -3,23 +3,23 @@
 #include<iostream>
 #include<math.h>
 
-//sqrt(x) es la raiz cuadrada
-//pow(x) es la potencia 2 o el cuadrado de un numero 
+// sqrt (x) is the square root
+// pow (x) is the power 2 or the square of a number
 
 using namespace std;
 
 int main (){
-	cout<<"Programa que calcula la formula general de una expresion cuadratica"<<endl;
+	cout<<"Program that calculates the general formula of a quadratic expression"<<endl;
 	
 	float a, b, c, resultado1=0, resultado2=0 ;
 	
-	cout<<"Digita a: ";
+	cout<<"Digit a: ";
 	cin>>a;
 	
-	cout<<"Digita b: ";
+	cout<<"Digit b: ";
 	cin>>b;
 	
-	cout<<"Digita c: ";
+	cout<<"Digit c: ";
 	cin>>c;
 	
 	float b2 = pow(b, 2);
@@ -28,7 +28,7 @@ int main (){
 	resultado1= (-b+(sqrt( b2 - (4*a*c))))/(2*a);
 	resultado2= (-b-((sqrt( b2 -(4*a*c)))))/(2*a);
 	
-	cout<<"Los resltados son: "<<resultado1<<endl;
+	cout<<"The answers are: "<<resultado1<<endl;
 	cout<<resultado2<<endl;
 	
 	
