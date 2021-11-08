@@ -22,7 +22,7 @@ int main(){
     for(int i = size; i>=0;i--){
         mensaje2 += mensaje[i];
     }
-
+    
     cout<<mensaje2;
 
     getch();

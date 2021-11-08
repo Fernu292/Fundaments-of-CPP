@@ -25,11 +25,7 @@ class Car{
             else{
                 cout<<horsepowers;
             }
-
         }
-
-        
-
 };
 
 

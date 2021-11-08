@@ -1,6 +1,7 @@
-#include <iostream>
-#include <ctime>
+#include<iostream>
+#include<ctime>
 #include<string>
+#include<conio.h>
 
 
 using namespace std;
@@ -27,5 +28,7 @@ int main()
 	{
 		cout << alphanum[rand() % ::size];
 	}
+
+	getch();
 	return 0;
 }

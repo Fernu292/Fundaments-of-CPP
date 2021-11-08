@@ -14,7 +14,9 @@ int toMinutes(int h){
 }
 
 int main(){
+    cout<<"Convertir horas a minutos"<<endl;
     int n;
+    cout<<"Digita las horas: ";
     cin>>n;
     cout<<toMinutes(n);
 

@@ -1,8 +1,6 @@
 /*1. Escribe un programa que defina un vector de numeros y calcule
 la suma de sus elemntos*/
 
-
-
 #include<iostream>
 #include<conio.h>
 

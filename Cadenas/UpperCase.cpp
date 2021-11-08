@@ -1,20 +1,18 @@
-//PAsar un strinng lowcase a uppercase
+//Trnasform string to uppercase
 
 #include<iostream>
-#include<string.h>
 #include<string>
-#include<conio.h>
+#include<algorithm>
 
 using namespace std;
 
 int main(){
 
-    char nombre[] = "Fernando";
-    string nombre2 = "Luis";
+    string name = "Luis Fernando";
 
-    
-    cout<<nombre;
-    
-    getch();
+    transform(name.begin(), name.end(), name.begin(), [](unsigned char c){return toupper(c); });
+
+    cout<<name;
+
     return 0;
 }
